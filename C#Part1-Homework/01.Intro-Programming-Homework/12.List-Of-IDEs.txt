@@ -1,0 +1,50 @@
+01."Anjuta" :
+	Anjuta is an integrated development environment written for the GNOME project.
+	It has support for the C, C++, Java, JavaScript, Python and Vala programming languages. 
+	It comes standard on base installation DVDs of major Linux distributions 
+	such as Ubuntu, openSUSE, Fedora, and Mandriva Linux (amongst others).
+
+
+
+02."Dev-C++":
+	Dev-C++ is a free integrated development environment (IDE) 
+	distributed under the GNU General Public License for programming in C and C++. 
+	MinGW, a free compiler, is bundled with it. The IDE is written in Delphi.
+	The project is hosted by SourceForge. 
+	Dev-C++ was originally developed by programmer Colin Laplace. 
+	Dev-C++ runs exclusively on Microsoft Windows.
+
+
+
+03."MonoDevelop":
+	MonoDevelop is an open source integrated development environment for Linux, 
+	OS X, and Windows. 
+	Its primary focus is development of projects that use Mono and .NET frameworks. 
+	MonoDevelop integrates features similar to those of NetBeans and 
+	Microsoft Visual Studio, such as automatic code completion, source control, 
+	a graphical user interface (GUI) and Web designer. 
+	MonoDevelop integrates a Gtk# GUI designer called Stetic. 
+	It supports Boo, C, C++, C#, CIL, D, F#, Java, Oxygene, Python, Vala,
+	 and Visual Basic.NET.
+
+
+
+04."SharpDevelop":
+	SharpDevelop (also styled as #develop) is a free and open source integrated 
+	development environment (IDE) for the .NET Framework, Mono, Gtk# and Glade# platforms.
+	It supports development in C#, Visual Basic .NET, Boo, F#, IronPython 
+	and IronRuby programming languages.
+
+
+
+05."C++Builder":
+	C++Builder is a rapid application development (RAD) environment, 
+	originally developed by Borland and as of 2009 owned by Embarcadero Technologies, 
+	for writing programs in the C++ programming language targeting Windows and OS X. 
+	C++Builder combines the Visual Component Library and IDE written in Delphi with a 
+	C++ compiler. 
+	Most components developed in Delphi can be used in C++Builder with no 
+	or little modification, although the reverse is not true.
+	C++Builder includes tools that allow drag-and-drop visual development, 
+	making programming easier by incorporating a WYSIWYG 
+	graphical user interface builder.
