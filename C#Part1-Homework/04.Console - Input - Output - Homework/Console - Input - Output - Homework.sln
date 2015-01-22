@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.FibonacciNumbers", "10.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.NumbersInIntervalDividableByGivenNumber", "11.NumbersInIntervalDividableByGivenNumber\11.NumbersInIntervalDividableByGivenNumber.csproj", "{46D35845-9B49-4970-AF45-A2F2F6C57174}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.FallingRocks", "12.FallingRocks\12.FallingRocks.csproj", "{EA2D621E-E441-4839-AE9A-1FF23762074A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{46D35845-9B49-4970-AF45-A2F2F6C57174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D35845-9B49-4970-AF45-A2F2F6C57174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D35845-9B49-4970-AF45-A2F2F6C57174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2D621E-E441-4839-AE9A-1FF23762074A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2D621E-E441-4839-AE9A-1FF23762074A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2D621E-E441-4839-AE9A-1FF23762074A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2D621E-E441-4839-AE9A-1FF23762074A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
