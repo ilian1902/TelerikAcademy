@@ -26,11 +26,13 @@
             int currentNum = arrayNums[0];
             int nextNum;
             int realNum = 0;
+            int bestCount = 0;
 
-            for (int i = 0; i < size / 2; i++)
+
+            for (int i = 0; i < size; i++)
             {
                 currentNum = arrayNums[i];
-                for (int j = i + 1; j < size; j++)
+                for (int j = 1; j < size; j++)
                 {
                     nextNum = arrayNums[j];
                     
@@ -38,12 +40,17 @@
                     {
                         count++;
                         realNum = currentNum;
+                        
                     }
                 }
-
+                if (count > bestCount)
+                {
+                    bestCount = count;
+                }
+                count = 0;
             }
-            Console.WriteLine(count);
-            Console.WriteLine(realNum);
+            Console.WriteLine("{0}({1}Times)", realNum, bestCount);
+            
         }
     }
 }
