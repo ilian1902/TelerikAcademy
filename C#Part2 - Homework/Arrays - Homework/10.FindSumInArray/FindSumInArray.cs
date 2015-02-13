@@ -14,53 +14,38 @@
          */
         static void Main()
         {
-            Console.Write("Enter size of array = ");
-            int size = int.Parse(Console.ReadLine());
-            int[] userArray = new int[size];
-            for (int i = 0; i < size; i++)
-            {
-                Console.Write("Index [{0}] = ", i);
-                userArray[i] = int.Parse(Console.ReadLine());
-            }
-
-            Console.Write("Enter S = ");
+            Console.Write("Enter sum S=");
             int s = int.Parse(Console.ReadLine());
-
-            int sum = 0;
-            int bigSum = 0;
-            int countIndex = 0;
-            int finelSum;
-
-
-            for (int i = 1; i < size; i++)
+            Console.Write("Enter how many element will be in the array N=");
+            int n = int.Parse(Console.ReadLine());
+            int[] array = new int[n];
+            // int[] array = new int[] { 4, 3, 1, 4, 2, 5, 8 };
+            for (int i = 0; i < array.Length; i++)
             {
-                int currentIndex = userArray[i - 1];
-                int nextIndex = userArray[i];
-                sum = currentIndex;
-
-                if (sum < s)
+                Console.Write("element[{0}]=", i);
+                array[i] = int.Parse(Console.ReadLine());
+            }
+            int currentSum = 0;
+            int startIndex = 0;
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                startIndex = i;
+                currentSum += array[i];
+                for (int j = i + 1; j < array.Length; j++)
                 {
-                    sum += nextIndex;
-                    bigSum += sum;
-                    if (bigSum == s)
+                    currentSum += array[j];
+                    if (currentSum == s)
                     {
-                        bigSum = sum;
+                        for (int k = startIndex; k <= j; k++)
+                        {
+                            Console.Write(k < j ? array[k] + ", " : array[k] + "\n");
+                        }
                         break;
                     }
-                    bigSum = userArray[i - 1] + userArray[i];
                 }
-                if (sum > s)
-                {
-                    countIndex = 0;
-                }
-                countIndex++;
-
+                currentSum = 0;
             }
-            for (int i = 0; i < countIndex; i++)
-            {
-                Console.WriteLine();
-            }
-            Console.WriteLine(bigSum);
         }
+
     }
 }

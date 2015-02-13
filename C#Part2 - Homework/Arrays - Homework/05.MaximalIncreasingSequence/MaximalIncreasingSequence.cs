@@ -1,6 +1,7 @@
 ﻿namespace MaximalIncreasingSequence
 {
     using System;
+    using System.Collections.Generic;
 
     class MaximalIncreasingSequence
     {
@@ -8,51 +9,49 @@
 
         static void Main()
         {
-            Console.Write("Enter size of a array = ");
+            Console.WriteLine("Enter a length for the first array:");
             int n = int.Parse(Console.ReadLine());
-
             int[] array = new int[n];
-
-            array[0] = int.Parse(Console.ReadLine());
-
             
-            int currentIndex = array[0];
-            int nextIndex = 0;
-            int countNumbASequence = 0;
-            int numbOfSequence = 1;
-
-            for (int i = 1; i < n; i++)
+            for (int i = 0; i < array.Length; i++)
             {
+                Console.Write("element[{0}]=", i);
                 array[i] = int.Parse(Console.ReadLine());
             }
-
-            for (int i = 1; i < n; i++)
+            List<int> currentSequance = new List<int>() { array[0] };
+            List<int> bestSequence = new List<int>();
+            int currElement = array[0];
+            for (int i = 1; i < array.Length; i++)
             {
-
-                if (currentIndex + 1 == array[i])
+                if (array[i] > currElement)
                 {
-                    countNumbASequence++;
-                    int[] sequence = new int[countNumbASequence];
-                    sequence[i] = currentIndex;
-
-                    if (countNumbASequence > numbOfSequence)
-                    {
-                        numbOfSequence = countNumbASequence;
-                        
-                        for (int j = 0; j < countNumbASequence; j++)
-                        {
-                            Console.Write(sequence[j]);
-                        }
-                    }
-
+                    currentSequance.Add(array[i]);
+                    currElement = array[i];
                 }
                 else
                 {
-                    countNumbASequence = 1;
-                    currentIndex = array[i];
+                    currElement = array[i];
+                    currentSequance = new List<int>() { array[i] };
+                }
+                if (currentSequance.Count > bestSequence.Count)
+                {
+                    bestSequence = currentSequance;
                 }
             }
-
+            for (int i = 0; i < bestSequence.Count; i++)
+            {
+                if (i < bestSequence.Count - 1)
+                {
+                    Console.Write(bestSequence[i] + ", ");
+                }
+                else
+                {
+                    Console.Write(bestSequence[i]);
+                }
+            }
+            Console.WriteLine();
         }
     }
+
 }
+

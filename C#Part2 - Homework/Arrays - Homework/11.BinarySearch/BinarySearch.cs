@@ -15,7 +15,7 @@
 
             for (int i = 0; i < size; i++)
             {
-                Console.Write("Index [{0}]", i);
+                Console.Write("Index [{0}] = ", i);
                 userArray[i] = int.Parse(Console.ReadLine());
             }
             Console.Write("Enter number which is sought = ");
@@ -23,10 +23,10 @@
 
             Array.Sort(userArray);
 
-            int searchIndex = BinarySearch(userArray, searchNum, 0, userArray.Length);
-            Console.WriteLine(searchIndex);
+            int searchIndex = BinarySearching(userArray, searchNum, 0, userArray.Length);
+            Console.WriteLine("Searching number is = {0}", searchIndex);
         }
-        private static int BinarySearch(int[] someArray, int number, int min, int max)
+        private static int BinarySearching(int[] someArray, int number, int min, int max)
         {
             if (max < min)
             {
@@ -37,11 +37,11 @@
                 int middleIndex = (min + max) / 2;
                 if (someArray[middleIndex] > number)
                 {
-                    return BinarySearch(someArray, number, min, middleIndex - 1);
+                    return BinarySearching(someArray, number, min, middleIndex - 1);
                 }
                 else if (someArray[middleIndex] < number)
                 {
-                    return BinarySearch(someArray, number, middleIndex + 1, max);
+                    return BinarySearching(someArray, number, middleIndex + 1, max);
                 }
                 else
                 {
