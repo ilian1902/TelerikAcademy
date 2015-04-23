@@ -1,0 +1,20 @@
+﻿#result
+{
+	text-align: right;
+	padding: 9px;
+	font-size: larger;
+}
+
+#button_zero
+{
+	padding: 0 23.5px;
+}
+
+#button_minus, #button_divide, #button_plus, #button_times
+{
+	width: 23px;
+}
+#button_decimal_point
+{
+    width: 31px;
+}

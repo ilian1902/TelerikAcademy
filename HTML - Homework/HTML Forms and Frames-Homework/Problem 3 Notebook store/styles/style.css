@@ -1,0 +1,25 @@
+﻿thead tr th {
+	border: 2px inset;
+	font-size: 25px;
+}
+
+.price {
+	text-align: center;
+}
+
+.ranges {
+	font-size: 18px;
+    width: 35px;
+}
+
+.ranges td {
+	padding: 30px;
+}
+
+.apple, .ranges {
+	border: 1px inset;
+	font-weight: bold;
+}
+table{
+    border-collapse:collapse;
+}

@@ -1,0 +1,28 @@
+﻿table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+table td {
+	border: 1px solid black;
+	width: 150px;
+	word-wrap: break-word;
+}
+
+table th{
+    border: 1px solid black;
+    width: 130px;
+}
+
+tfoot {
+	background-color: cyan;
+    
+}
+
+.firstCol {
+	text-align: right;
+}
+
+#footer {
+	padding-left: 100px;
+}

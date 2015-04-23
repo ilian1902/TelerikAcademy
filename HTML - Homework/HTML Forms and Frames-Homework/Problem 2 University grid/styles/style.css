@@ -1,0 +1,12 @@
+﻿table, th, td {
+	border: 1px inset;
+    color: black;
+}
+
+th, td {
+	padding: 5px;
+}
+
+.total-col {
+	font-weight: bold;
+}
