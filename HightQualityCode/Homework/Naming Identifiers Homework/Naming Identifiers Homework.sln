@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Minesweeper", "Task 1Class123InCSharp\04.Minesweeper.csproj", "{95ED4AE2-B84D-485C-B29B-2C80E0A1B963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.People", "02.People\02.People.csproj", "{B94CAB58-DEEF-47C4-A6D7-6D700E757F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MozzilaButton", "MozzilaButton\03.MozzilaButton.csproj", "{98AF1167-6713-4B2E-B351-C0376CB51C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PrintInConsole", "01.PrintInConsole\01.PrintInConsole.csproj", "{BD21D08C-51DF-4E87-A65B-81FCA93F6973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95ED4AE2-B84D-485C-B29B-2C80E0A1B963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ED4AE2-B84D-485C-B29B-2C80E0A1B963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ED4AE2-B84D-485C-B29B-2C80E0A1B963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ED4AE2-B84D-485C-B29B-2C80E0A1B963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94CAB58-DEEF-47C4-A6D7-6D700E757F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94CAB58-DEEF-47C4-A6D7-6D700E757F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94CAB58-DEEF-47C4-A6D7-6D700E757F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94CAB58-DEEF-47C4-A6D7-6D700E757F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AF1167-6713-4B2E-B351-C0376CB51C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AF1167-6713-4B2E-B351-C0376CB51C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AF1167-6713-4B2E-B351-C0376CB51C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AF1167-6713-4B2E-B351-C0376CB51C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD21D08C-51DF-4E87-A65B-81FCA93F6973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD21D08C-51DF-4E87-A65B-81FCA93F6973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD21D08C-51DF-4E87-A65B-81FCA93F6973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD21D08C-51DF-4E87-A65B-81FCA93F6973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
