@@ -1,0 +1,1 @@
+metadata=res://*/PetStore.csdl|res://*/PetStore.ssdl|res://*/PetStore.msl;provider=System.Data.SqlClient;provider connection string="data source=.\EXPRESS;initial catalog=PetStore;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"

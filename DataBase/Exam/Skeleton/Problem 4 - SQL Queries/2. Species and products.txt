@@ -1,0 +1,6 @@
+USE PetStore
+SELECT s.Name
+FROM Species s, ProductSpecies ps
+INNER JOIN Products p 
+ON ps.SpeciesID = p.SpeciesID
+ORDER BY p.ProductID
