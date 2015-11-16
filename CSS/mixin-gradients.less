@@ -1,0 +1,29 @@
+﻿.vlinear-gradient(@from, @from-pos: 0, @color1, @color1-pos, @color2, @color2-pos,@to, @to-pos: 100%, @repeat: no-repeat) {
+    background: @to;
+    background: -moz-linear-gradient(top, @from @from-pos, @color1 @color1-pos, @color1 @color2-pos, @to @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from), color-stop(@color1-pos,@color1), color-stop(@color2-pos,@color1), color-stop(@to-pos,@to));
+    background: -webkit-linear-gradient(top, @from @from-pos,@color1 @color1-pos,@color1 @color2-pos,@to @to-pos);
+    background: -o-linear-gradient(top, @from @from-pos,@color1 @color1-pos,@color1 @color2-pos,@to @to-pos);
+    background: -ms-linear-gradient(top, @from @from-pos,@color1 @color1-pos,@color1 @color2-pos,@to @to-pos);
+    background: linear-gradient(to bottom, @from @from-pos,@color1 @color1-pos,@color1 @color2-pos,@to @to-pos);
+}
+
+.two-colors-hor(@from,@to) {
+    background: @from;
+    background: -moz-linear-gradient(left, @from 0,@to 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0,@from), color-stop(100%,@to));
+    background: -webkit-linear-gradient(left, @from 0,@to 100%);
+    background: -o-linear-gradient(left, @from 0,@to 100%);
+    background: -ms-linear-gradient(left, @from 0,@to 100%);
+    background: linear-gradient(to right, @from 0,@to 100%);
+}
+
+.two-colors-ver(@from,@to) {
+    background: @from; /* Old browsers */
+    background: -moz-linear-gradient(top, @from 0%, @to 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@from), color-stop(100%,@to));
+    background: -webkit-linear-gradient(top, @from 0%,@to 100%);
+    background: -o-linear-gradient(top, @from 0%,@to 100%); 
+    background: -ms-linear-gradient(top, @from 0%,@to 100%);
+    background: linear-gradient(to bottom, @from 0%,@to 100%);
+}

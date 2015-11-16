@@ -1,0 +1,23 @@
+﻿html,
+body,
+h1,
+h2,
+h3,
+div,
+ul,
+li,
+a,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: none;
+  font-size: 16px;
+}
+#wrapper {
+  width: 960px;
+}
+/*# sourceMappingURL=index.css.map */

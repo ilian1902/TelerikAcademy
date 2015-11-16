@@ -1,0 +1,72 @@
+﻿body, div, h1, p, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('initial.png');
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+    padding: 25px;
+}
+
+    #wrapper div {
+        width: 935px;
+        box-sizing: border-box;
+        border: solid 1px black;
+        border-radius: 15px;
+        padding: 16px 36px;
+        position: relative;
+        background: #de28ff;
+        background: -moz-linear-gradient(top, #de28ff 0%, #de28ff 15%, #f9dbff 75%, #f9dbff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#de28ff), color-stop(15%,#de28ff), color-stop(75%,#f9dbff), color-stop(100%,#f9dbff));
+        background: -webkit-linear-gradient(top, #de28ff 0%,#de28ff 15%,#f9dbff 75%,#f9dbff 100%);
+        background: -o-linear-gradient(top, #de28ff 0%,#de28ff 15%,#f9dbff 75%,#f9dbff 100%);
+        background: -ms-linear-gradient(top, #de28ff 0%,#de28ff 15%,#f9dbff 75%,#f9dbff 100%);
+        background: linear-gradient(to bottom, #de28ff 0%,#de28ff 15%,#f9dbff 75%,#f9dbff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de28ff', endColorstr='#f9dbff',GradientType=0 );
+    }
+
+        #wrapper div h1 {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+
+        #wrapper div img {
+            position: absolute;
+            top: 83px;
+        }
+
+            #wrapper div img.left-arrow {
+                left: 0;
+            }
+
+            #wrapper div img.right-arrow {
+                right: 0;
+            }
+            #wrapper div p.postedby{
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+                display: inline;
+                margin:14px;
+                padding: 5px 15px 4px;
+            }
+            #wrapper div p.info{
+                margin-top: 26px;
+                text-align: justify;
+                padding-bottom: 10px;
+            }
+
+            .vajno{
+
+            }
+            .clear-fix{ 
+                height:0;
+                display:block;
+                content:"";
+                clear: both;
+            }

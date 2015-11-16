@@ -1,0 +1,102 @@
+html, body {
+    font-family: 'Segoe UI', 'Segoe UI Web', 'Segoe UI Symbol', 'Helvetica Neue', 'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+html,
+body,
+main,
+footer,
+h1,
+h2,
+h3,
+div,
+ul,
+li,
+a,
+p,
+hr,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 22px;
+    padding: 10px;
+    
+}
+
+#shellHeader{
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+header div#search{
+    background-color: #0078D7;
+    padding: 15px;
+    width: 1000px;
+}
+header div .searchInput{
+    padding: 10px;
+    margin-left: 300px;
+    width: 400px;
+    
+}
+
+
+header div div#logo {
+    background-image: url('images/logo.png');
+}
+
+header div div.separator {
+}
+
+main h1{
+    font-size: 30px 0 0 0;
+    color: #333333;
+    padding-left: 20px;
+}
+main h2{
+    font-size: 24px;
+    color: #333333;
+    padding-left: 20px;
+}
+main hr{
+    font-size:large;
+}
+
+main p{
+    color:	#505050;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+main text{
+    font-size:16px;
+}
+
+footer{
+    background-color: #333333;
+    font-size: 14px;
+    
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #CCCCCC;
+    display: inline-block;
+}
+footer #language{
+    color: #CCCCCC;
+}
+
+footer #copyright{
+    color: #CCCCCC;
+}

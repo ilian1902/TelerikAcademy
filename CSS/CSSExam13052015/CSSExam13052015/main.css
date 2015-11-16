@@ -1,0 +1,42 @@
+html,
+body,
+h1,
+h2,
+h3,
+div,
+ul,
+li,
+a,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Times New Roman";
+    color: #000000;
+    font-size: 16px;
+    
+}
+
+#root{
+}
+div ul.avengers{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+div ul li.avenger{
+    display: inline-block;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 5px 0 0 0 ;
+    text-align: center;
+    text-
+
+}
+div ul li div.preview{
+    display: none;
+}
